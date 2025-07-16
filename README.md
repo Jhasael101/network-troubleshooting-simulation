@@ -20,4 +20,4 @@
 
 ### Step 1: Verified the issue
 -Ran 'ipconfig' and found no valid ipv4 address
--Ran 'ping 8.8.8.8' - failed to reach the server [click here to view the image](ipconfig_after_fix)
+-Ran 'ping 8.8.8.8' - failed to reach the server [click here to view the image](ipconfig_after_fix.png)
