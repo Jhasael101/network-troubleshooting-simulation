@@ -49,13 +49,22 @@
 
 --
 
-### Step 5: Confirmed Inter Restored 
+### Step 5: Confirmed Internet Restored 
 
 -Ran ipconfig and verified a valid ip address
 [click here to view image](ipconfig_after_fix)
 
 -Ran ping 8.8.8.8 and recieved successful repiles
 [click here to view image](ping_after_fix)
+
+--
+
+### Step 6: Resolution
+-Re-enabling the network adapter
+
+-Resetting the network stack
+
+-Rebooting the system
 
 
 
