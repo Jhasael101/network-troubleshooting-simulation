@@ -12,6 +12,7 @@
 ## The Enviorment
 -OS. Windows 10 Home
 -Tools used. Command Prompt, Device Manager
+
 -Simulated scenario. Network adapter was manually disabled to simulate the issue
 
 --
@@ -20,6 +21,7 @@
 
 ### Step 1: Verified the issue
 -Ran 'ipconfig' and found no valid ipv4 address
+
 -Ran 'ping 8.8.8.8' - failed to reach the server 
 [click here to view image](no_internet_before_fix.png)
 
@@ -27,13 +29,16 @@
 
 ### Step 2: Re-enabled Network adapter
 -Opened 'Device Manager'
-Re-enabled Wi-Fi adapter
+
+-Re-enabled Wi-Fi adapter
 
 --
 
 ### Step 3
 -Ran these commands in 'Command Prompt' (admin)
+
 -netsh int ip reset
+
 -netsh winsock reset
 [click here to view image](network_reset_cmd.png)
 
@@ -45,8 +50,14 @@ Re-enabled Wi-Fi adapter
 --
 
 ### Step 5: Confirmed Inter Restored 
+
 -Ran ipconfig and verified a valid ip address
+[click here to view image](ipconfig_after_fix)
+
 -Ran ping 8.8.8.8 and recieved successful repiles
-[click here to view image](
+[click here to view image](ping_after_fix)
+
+
+
 
 
