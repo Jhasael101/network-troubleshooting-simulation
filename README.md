@@ -52,10 +52,10 @@
 ### Step 5: Confirmed Internet Restored 
 
 -Ran ipconfig and verified a valid ip address
-[click here to view image](ipconfig_after_fix)
+[click here to view image](ipconfig_after_fix.png)
 
 -Ran ping 8.8.8.8 and recieved successful repiles
-[click here to view image](ping_after_fix)
+[click here to view image](ping_after_fix.png)
 
 --
 
